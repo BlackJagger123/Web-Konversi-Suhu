@@ -1,0 +1,74 @@
+.container {
+    max-width: 745px;
+    margin: 50px auto;
+}
+
+::placeholder {
+    color: black; 
+    opacity: 1; 
+}
+
+.input-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-saja {
+    margin-bottom: 40px;
+}
+
+.input-saja label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.input-saja input {
+    padding-right: 530px;
+    padding-bottom: 78px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#celsius{
+    margin-bottom: -30px;
+}
+.tombol {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex; 
+    justify-content: space-between;
+    width: 100%; 
+}
+
+.tombol button.konversi {
+    padding: 13px 50px; 
+    background-color: #2f3030; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px; 
+}
+
+.tombol button.reset {
+    padding: 13px 50px; 
+    background-color: #ff6347; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px; 
+}
+
+.tombol button.reverse {
+    padding: 13px 50px; 
+    background-color: #f0ed68; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px; 
+}
+
+
